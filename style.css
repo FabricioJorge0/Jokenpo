@@ -1,0 +1,74 @@
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: rgb(1, 1, 119);
+  font-size: 1.6rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 55%;
+  height: 50rem;
+  border: 2px solid white;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 50px 10px black ;
+  margin-top: 10rem;
+}
+
+.cabecalho{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+.campo_jogo{
+  margin:auto;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.campo_jogo select{
+  width: 18rem;
+  height: 3rem;
+  color: white;
+  background-color: rgb(41, 39, 39);
+
+}
+
+.campo_jogo button{
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.8rem;
+  background-color: rgb(5, 218, 5);
+  border-radius: 3rem;
+}
+
+.campo_jogo button:hover{
+  background-color: rgb(1, 95, 1);
+  box-shadow: 1px 1px 20px 1px green;
+}
+
+.informacoes{
+  width: 25%;
+  margin-left: 3rem;
+  padding: 3rem;
+}
+
+input{
+  width: 10rem;
+
+  background-color: rgb(41, 39, 39);
+  color: white;
+  height: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}

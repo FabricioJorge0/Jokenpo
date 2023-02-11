@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra, Papel ou Tesoura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="cabecalho">
+        <h1>Pedra, Papel ou Tesoura</h1>
+        <p>Escolha entre as opções e clique em "jogar" para tentar a sorte!</p>
+      </div>
+
+      <div class="campo_jogo">
+        <select class="jogar" name="jogo" id="jogo">
+          <option value="" selected disabled>Selecione</option>
+          <option value="0">Pedra</option>
+          <option value="1">Papel</option>
+          <option value="2">Tesoura</option>
+        </select>
+        <button type="button" class="button" onclick="jogar()">Jogar</button>
+      </div>
+
+
+      <div class="informacoes">
+        <div class="info_vitorias">
+          <label for="vitoria">Vitórias.</label>
+          <input type="text" name="vitoria" id="vitoria"disabled>
+        </div>
+        <div class="info_derrotas">
+          <label for="derrota">Derrotas</label>
+          <input type="text" name="derrota" id="derrota"disabled>
+        </div>
+        <div class="info_empates">
+          <label for="empate">Empates</label>
+          <input type="text" name="empate" id="empate"disabled>
+        </div>
+      </div>
+  </div>  
+
+  <script src="index.js"></script>
+</body>
+</html>
