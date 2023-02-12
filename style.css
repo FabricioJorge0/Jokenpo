@@ -12,7 +12,7 @@ body{
 
 .container{
   width: 55%;
-  height: 50rem;
+  height: 40rem;
   border: 2px solid white;
   margin: auto;
   justify-content: center;
@@ -58,14 +58,14 @@ body{
 }
 
 .informacoes{
-  width: 25%;
-  margin-left: 3rem;
   padding: 3rem;
+  display: flex;
+  flex-direction: row;
 }
 
 input{
-  width: 10rem;
-
+  width: 5rem;
+  margin-left: 5px;
   background-color: rgb(41, 39, 39);
   color: white;
   height: 1.6rem;
