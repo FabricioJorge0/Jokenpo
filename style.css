@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: rgb(1, 1, 119);
+  background-color: rgb(36, 36, 37);
   font-size: 1.6rem;
   color: white;
   margin: 0;
@@ -12,14 +12,14 @@ body{
 
 .container{
   width: 55%;
-  height: 50rem;
-  border: 2px solid white;
+  min-height: 5rem;
+  margin: 0;
   margin: auto;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(37, 36, 36);
   border-radius: 1rem;
-  box-shadow: 5px 5px 50px 10px black ;
+  box-shadow: 5px 5px 50px 10px rgb(7, 7, 7) ;
   margin-top: 10rem;
 }
 
@@ -65,10 +65,20 @@ body{
 
 input{
   width: 5rem;
-  margin-left: 5px;
+  margin: 0;
   background-color: rgb(41, 39, 39);
   color: white;
   height: 1.6rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.resultado{
+  min-width: 25rem;
+  float: right;
+  margin: auto;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  
 }
