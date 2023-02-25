@@ -50,19 +50,19 @@ function jogar(){
           adicionar_derrota(contador_derrota+=1)
           resultado.style.display = "block"
           resultado.style.color = "red"
-          resultado.innerHTML = "QUE PENA, O COMPUTADOR VENCEU!"
+          resultado.innerHTML = "QUE PENA! <br> O COMPUTADOR VENCEU!"
       }else if(computador == jogador.value){
               //empate
           adicionar_empate(contador_empate+=1)
           resultado.style.display = "block"
           resultado.style.color = "white"
-          resultado.innerHTML = "POXA, EMPATOU"
+          resultado.innerHTML = "POXA EMPATOU"
       }else{
           //JOGADOR VENCE
           adicionar_vitoria(contador_vitoria+=1)
           resultado.style.display = "block"
           resultado.style.color = "green"
-          resultado.innerHTML = "PARABÉNS, VOCÊ GANHOU!!!"
+          resultado.innerHTML = "PARABÉNS! <br> VOCÊ GANHOU!!!"
       }
   }, 3000)
 }
