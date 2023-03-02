@@ -6,3 +6,7 @@ irá fazer o sorteio entre os valores 0 a 2, sendo eles respectivamento 0 -> Ped
 
 Após sorteado os valores é feito uma verificação entre o valor escolhido pelo usuário e o valor sorteado pela máquina, para verificar quem ganhou a partida. 
 Os resultado porem ser Vitória, Derrota ou Empate. Sendo qualquer um desses resultado os valores de cada um será somado nos seus respectivos campos.
+
+
+
+Teste com: https://fabriciojorge0.github.io/Jokenpo2/
